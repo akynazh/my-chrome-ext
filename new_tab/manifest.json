@@ -1,0 +1,16 @@
+{
+    "name": "New Tab",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "plus16.png",
+        "48": "plus48.png",
+        "128": "plus128.png"
+    },
+    "action": {
+        "default_title": "Click to open a new tab"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
