@@ -2,6 +2,10 @@
     "name": "New Tab",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "tabGroups"
+    ],
     "icons": {
         "16": "plus16.png",
         "48": "plus48.png",
